@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: teal;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+
+.wrapper {
+    background-color: blue;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Radio buttons styling */
+.gender {
+    margin-right: 10px;
+}
+
+/* Submit button styling */
+button {
+    background-color: white;
+    color: purple;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
