@@ -49,12 +49,10 @@ input[type="date"] {
     box-sizing: border-box;
 }
 
-/* Radio buttons styling */
 .gender {
     margin-right: 10px;
 }
 
-/* Submit button styling */
 button {
     background-color: white;
     color: purple;
